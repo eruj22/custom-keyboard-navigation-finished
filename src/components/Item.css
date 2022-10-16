@@ -1,0 +1,25 @@
+.item {
+  position: relative;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid lightgray;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.input {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.checked {
+  border: 2px solid rgb(36, 36, 174);
+}
